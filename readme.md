@@ -27,7 +27,7 @@ this blog web site is web site for publish posts
 * open browser on this link `http://localhost:5000/`
 
 ## DockerHub Link
-https://hub.docker.com/r/mohamedawad/django-blog
+https://hub.docker.com/r/mohamedawad/flask-blog-with-redis
 
 ### photo of site
 
