@@ -1,0 +1,26 @@
+
+h1 {
+  text-align: center;
+}
+
+#R_UL {
+  margin-right: 0px !important;
+}
+
+#R_link {
+  float: right;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+#post {
+  margin: 10px;
+  border-radius: 15px;
+}
+
+
+#ts {
+  float: right;
+}

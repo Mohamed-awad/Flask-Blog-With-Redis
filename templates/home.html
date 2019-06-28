@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form action="{{ url_for('home') }}" method="post">
+  <div class="form-group">
+    <input required class="form-control" type="text"
+           name="post" placeholder="What are you thinking?">
+  </div>
+  <button class="btn btn-primary" type="submit">Add your Post</button>
+</form>
+<h1>All posts</h1>
+{% for post in timeline %}
+  <div id="post" class="card">
+    <div class="card-body">
+      <p class="card-text"> {{ post.text }} </p>
+      <p id="ts" class="card-text">Published at {{ post.ts }} by {{ post.username }}</p>
+      <br>
+      <a class="btn btn-info" href="{{ url_for('detail', id=post.post_id) }}">see post detail</a>
+    </div>
+  </div>
+
+{% else %}
+<h2>No posts!</h2>
+{% endfor %}
+{% endblock %}

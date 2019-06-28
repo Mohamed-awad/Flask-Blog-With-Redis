@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <div id="post" class="card">
+    <div class="card-body">
+      <p class="card-text"> {{ post.text }} </p>
+      <p id="ts" class="card-text">Published at {{ post.ts }} by {{ post.username }}</p>
+      <br>
+      {% if session.username == post.username %}
+        <a class="btn btn-danger" href="{{ url_for('delete', id=post.post_id) }}">delete this post</a>
+        <a class="btn btn-info" href="{{ url_for('edit', id=post.post_id) }}">edit your post</a>
+      {% endif %}
+    </div>
+  </div>
+
+{% endblock %}

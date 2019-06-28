@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <form action="{{ url_for('edit', id=post.post_id) }}" method="post">
+    <div class="form-group">
+      <input required class="form-control" type="text"
+             name="post" value="{{post.text}}">
+    </div>
+    <button class="btn btn-primary" type="submit">Edit your Post</button>
+  </form>
+
+{% endblock %}
