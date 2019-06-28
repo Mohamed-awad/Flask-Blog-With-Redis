@@ -32,16 +32,16 @@ https://hub.docker.com/r/mohamedawad/django-blog
 ### photo of site
 
 ###### Blog Posts Page
-![alt text]()
+![alt text](https://github.com/Mohamed-awad/Flask-Blog-With-Redis/blob/master/images/1.png)
 
 ###### Post Detail Page
-![alt text]()
+![alt text](https://github.com/Mohamed-awad/Flask-Blog-With-Redis/blob/master/images/5.png)
 
 ###### Login Page
-![alt text]()
+![alt text](https://github.com/Mohamed-awad/Flask-Blog-With-Redis/blob/master/images/3.png)
 
 ###### Sign Up Page
-![alt text]()
+![alt text](https://github.com/Mohamed-awad/Flask-Blog-With-Redis/blob/master/images/4.png)
 
 ###### My Profile Page
-![alt text]()
+![alt text](https://github.com/Mohamed-awad/Flask-Blog-With-Redis/blob/master/images/2.png)
