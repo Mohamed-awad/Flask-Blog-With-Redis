@@ -15,7 +15,7 @@ app.secret_key = 'Wt\n\x90(\x8d\x1f\xde}\xdb\x88\xe5\xaf\xcd\x8c\xcdW\xe5\xb7\xc
 
 def init_DB():
   db = redis.StrictRedis(
-    host='localhost',
+    host='redis',
     port=6379,
     db=0
   )
@@ -203,5 +203,5 @@ def detail():
 
 
 if __name__ == "__main__":
-  app.run(debug=True)
+  app.run(debug=True, host='0.0.0.0')
 
